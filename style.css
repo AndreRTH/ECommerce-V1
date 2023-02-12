@@ -375,12 +375,12 @@ input[type=submit]:hover {
 /* IPhone12Pro */
 @media only screen and (max-width: 390px) {
 
-  .topnav {
+  .navgrid {
     width: 390px;
   }
 
   .wgrid {
-    width: 390px;
+    width: 10px;
   }
 
   .captiontext {
@@ -388,24 +388,44 @@ input[type=submit]:hover {
     left: 50px;
   }
 
-  .wgrid {
+  .wgriditem {
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    top: 60px;
+    top: 70px;
+    right: 300px;
+    height: 500px;
+    width:300px;
+    margin: px;
+
    
   }
-  
-  .wgriditem {
-  height: 500px;
-  width: 390px;
-  margin: 10px;
-  text-align: center;
+
+  .wgridtext {
+    left: 500px;
+    margin-left: 120px;
+    margin-top: 0px;
   }
 
+  .wgridimg {
+    margin-left: 150px;
+    
+  }
+
+  html {
+    max-width: 390px;
+  }
+
+ 
+
+
   footer {
-    height: 200px;
-    background-color: #111A1E
+    height:200px;
+    background-color: #111A1E;
+    margin-top: 0px;
+    position:relative;
+    top:650px;
+
   }
   
   .footerimg {
@@ -418,13 +438,15 @@ input[type=submit]:hover {
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    top: 0px;
-    left: 50px;
-   
+    width: 200px;
+    
   }
 
   .aboutgriditem {
-    margin: 10px;
+    width: 200px;
+    
+    
+    
 
     }
 
@@ -478,7 +500,8 @@ input[type=submit]:hover {
 
   footer {
     height: 200px;
-    background-color: #111A1E
+    background-color: #111A1E;
+    margin-top:100px;
   }
   
   .footerimg {
@@ -508,6 +531,10 @@ input[type=submit]:hover {
       top: 0px;
       left: 50px;
      
+    }
+
+    .container {
+      margin-bottom: 590px;
     }
 
     
